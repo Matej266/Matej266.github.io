@@ -1,0 +1,108 @@
+body{
+    font-size: 19px;
+    background-color: #A79B64;
+}
+p, ol, ul{
+    font-family: 'IBM Plex Sans', sans-serif;
+} 
+.title{
+    text-align: center;
+    background-color: #7E7343;
+    font-family: 'Satisfy';
+}
+h3{
+    background-color: #C9BF8E;
+    font-family: 'Playpen Sans', cursive;
+}
+div{
+    border: 1px solid black ;
+    border-radius: 25px;
+    background-color: #F4ECC9;
+    padding: 7px;
+}
+.history{
+    width: 800px;
+    position: relative;
+    top: 20px;
+}
+.description{
+    width: 800px;
+    position: relative;
+    top: 20px;
+}
+.des_title{
+    width: 200px;
+    text-align: center;
+    position: relative;
+    border: 1px solid black ;
+    border-radius: 25px;
+    left: 300px;
+    background-color: #C9BF8E;
+}
+.his_title{
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    border: 1px solid black ;
+    border-radius: 25px;
+    background-color: #C9BF8E;
+}
+.ingredients{
+    width: 150px;
+    position: absolute;
+    left: 200px;
+    top: 600px;
+}
+.recipe{
+    width: 800px;
+    position: relative;
+    top: 50px;
+    left: 530px;
+}
+.rec_title{
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    border: 1px solid black ;
+    border-radius: 25px;
+    bottom: 10px;
+    background-color: #C9BF8E;
+}
+.img{
+    position: absolute;
+    top: 175px;
+    right: 20px;
+    width: 500px;
+    height: auto;
+    border: #A79B64;
+    text-align: top;
+    background-color: #A79B64;
+}
+img:hover{
+    margin-left:-400px;
+    margin-top: -150px;
+    width: 750px;
+}
+img, video{
+    border-radius: 25px;
+    transition: 1.5s;
+}
+.ing_title{
+    text-align: center;
+    width: 164px;
+    position: relative;
+    right: 7px;
+}
+video{
+    position: absolute;
+    bottom: -570px;
+}
+footer{
+    background-color: #FFFBEA;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    width: 101%;
+}
